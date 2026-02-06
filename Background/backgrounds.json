@@ -1,4 +1,88 @@
 {
   "version": 1,
-  "backgrounds": []
+  "updatedAt": "2026-02-06T00:00:00Z",
+  "backgrounds": [
+    {
+      "id": "solid_ivory",
+      "name": "Ivory",
+      "type": "solid",
+      "price": "free",
+      "tone": "light",
+      "style": "paper",
+      "color": "#F7F1E8",
+      "accessType": "free",
+      "productId": null,
+      "enabled": true,
+      "sortOrder": 10
+    },
+    {
+      "id": "solid_midnight",
+      "name": "Midnight",
+      "type": "solid",
+      "price": "free",
+      "tone": "dark",
+      "style": "paper",
+      "color": "#0B1020",
+      "accessType": "free",
+      "productId": null,
+      "enabled": true,
+      "sortOrder": 20
+    },
+    {
+      "id": "img_light_paper_free",
+      "name": "Light Paper",
+      "type": "image",
+      "price": "free",
+      "tone": "light",
+      "style": "paper",
+      "thumbUrl": "https://appbackground.vercel.app/Background/images/light-paper-thumb.webp",
+      "imageUrl": "https://appbackground.vercel.app/Background/images/light-paper.webp",
+      "accessType": "free",
+      "productId": null,
+      "enabled": true,
+      "sortOrder": 30
+    },
+    {
+      "id": "img_dark_paper_free",
+      "name": "Dark Paper",
+      "type": "image",
+      "price": "free",
+      "tone": "dark",
+      "style": "paper",
+      "thumbUrl": "https://appbackground.vercel.app/Background/images/dark-paper-thumb.webp",
+      "imageUrl": "https://appbackground.vercel.app/Background/images/dark-paper.webp",
+      "accessType": "free",
+      "productId": null,
+      "enabled": true,
+      "sortOrder": 40
+    },
+    {
+      "id": "pro_desk_morning",
+      "name": "Desk Morning",
+      "type": "image",
+      "price": "paid",
+      "tone": "light",
+      "style": "scene",
+      "thumbUrl": "https://appbackground.vercel.app/Background/images/desk-morning-thumb.webp",
+      "imageUrl": "https://appbackground.vercel.app/Background/images/desk-morning.webp",
+      "accessType": "one_time",
+      "productId": "bg_pack_desk_morning",
+      "enabled": true,
+      "sortOrder": 100
+    },
+    {
+      "id": "pro_starfield",
+      "name": "Starfield",
+      "type": "image",
+      "price": "paid",
+      "tone": "dark",
+      "style": "scene",
+      "thumbUrl": "https://appbackground.vercel.app/Background/images/starfield-thumb.webp",
+      "imageUrl": "https://appbackground.vercel.app/Background/images/starfield.webp",
+      "accessType": "subscription",
+      "productId": "bg_pack_space",
+      "enabled": true,
+      "sortOrder": 110
+    }
+  ]
 }
